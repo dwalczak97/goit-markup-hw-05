@@ -536,6 +536,17 @@ footer {
   margin-bottom: 16px;
 }
 .on-off {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  border-radius: 4px;
+  width: 408px;
+  height: 584px;
 }
 .window {
 }
@@ -570,4 +581,22 @@ footer {
 }
 .input-window {
   border: none;
+}
+.btn-window {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+.border-chechbox {
+  border: none;
+}
+.label-chackbox {
+}
+.checkbox {
 }
