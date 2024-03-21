@@ -636,6 +636,7 @@ footer {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  position: relative;
 }
 .text-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
