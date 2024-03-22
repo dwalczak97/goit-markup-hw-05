@@ -610,26 +610,23 @@ footer {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-  
 }
 .form-window {
 }
 .label-window {
-  content:"Name"
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
 
   letter-spacing: 0.04em;
-  color: #8e8f99;
+
   line-height: 1.17;
   display: block;
-   margin-bottom: 4px;
-
+  margin-bottom: 4px;
 }
 .box-model {
   border-radius: 4px;
- /* width: 360px;
+  /* width: 360px;
   height: 336px;*/
   margin-bottom: 8px;
 }
@@ -659,6 +656,9 @@ footer {
 }
 .input-window:focus {
   border-color: #4d5ae5;
+}
+.input-window:focus .svg-inoput-window {
+  fill: #4d5ae5;
 }
 .svg-input-window {
   position: absolute;
