@@ -617,7 +617,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-
+  color: #8e8f99;
   letter-spacing: 0.04em;
 
   line-height: 1.17;
@@ -630,7 +630,10 @@ footer {
   height: 336px;*/
   margin-bottom: 8px;
 }
-
+.box-model-second {
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
 .box {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
@@ -641,8 +644,18 @@ footer {
 .text-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  width: 360px;
+  width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
 }
 .input-window {
   width: 100%;
@@ -680,8 +693,9 @@ footer {
 }
 .border-chechbox {
   border: none;
+  margin-bottom: 24px;
 }
-.label-chackbox {
+.label-checkbox {
 }
-.checkbox {
+.input-checkbox {
 }
