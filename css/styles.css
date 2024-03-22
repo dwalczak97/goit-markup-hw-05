@@ -609,6 +609,7 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
   
 }
 .form-window {
@@ -623,6 +624,7 @@ footer {
   color: #8e8f99;
   line-height: 1.17;
   display: block;
+   margin-bottom: 4px;
 
 }
 .box-model {
