@@ -609,11 +609,12 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 16px;
+  
 }
 .form-window {
 }
 .label-window {
+  content:"Name"
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -622,16 +623,16 @@ footer {
   color: #8e8f99;
   line-height: 1.17;
   display: block;
-  margin-bottom: 4px;
+
 }
 .box-model {
   border-radius: 4px;
-  width: 360px;
-  height: 336px;
+ /* width: 360px;
+  height: 336px;*/
   margin-bottom: 8px;
 }
 
-.border {
+.box {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
   width: 360px;
