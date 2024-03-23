@@ -719,6 +719,11 @@ footer {
   border: none;
   fill: #f4f4fd;
 }
+.input-checkbox:focus + .for-svg {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .label {
   font-size: 12px;
   line-height: 1.17;
