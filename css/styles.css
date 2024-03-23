@@ -503,6 +503,8 @@ footer {
   letter-spacing: 0.04em;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  padding-left: 16px;
 }
 .svg-button-footer {
   fill: #fff;
@@ -535,6 +537,7 @@ footer {
   color: #fff;
   margin-bottom: 16px;
 }
+
 .on-off {
   position: fixed;
   top: 0;
